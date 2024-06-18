@@ -1,0 +1,40 @@
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    margin: 5px;
+}
+
+.card-name {
+    font-size: 26px;
+}
+
+.product-color {
+    color: gray;
+}
+
+.product-image {
+    width: 300px;
+    height: 300px;
+}
+
+.product-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: crimson;
+}
+
+.product-button {
+    background-color: #f5f5f5;
+    color: crimson;
+    border: 1px solid crimson;
+    border-radius: 5px;
+    padding: 10px;
+}

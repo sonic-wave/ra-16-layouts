@@ -1,0 +1,38 @@
+.item-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    background-color: #f5f5f5;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2px;
+}
+
+.item-name {
+    font-size: 26px;
+}
+
+.item-color {
+    color: gray;
+}
+
+.item-image {
+    width: 200px;
+    height: 200px;
+}
+
+.item-price {
+    color: crimson;
+}
+
+.item-button {
+    background-color: #f5f5f5;
+    color: crimson;
+    border: 1px solid crimson;
+    border-radius: 5px;
+    padding: 10px;
+}
